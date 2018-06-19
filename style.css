@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#theHeader {
+    border: 2px solid blue;
+    background-color: aquamarine;
+    color : blueviolet;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.buttonsContainer {
+	margin-top: 100px;
+	background-color: beige;
+	padding: 20px 0 20px 0;
+}
+
+.Page1 a { 
+	background: #77AD0C ;
+	margin-left: 37%;
+}
+
+.Page2 a { background: #669900 }
+
+.Page3 a { background: #336600 }
+
+.Page4 a { background: #0066cc }
+
+.linksLine a {
+    /* Normal State */
+    padding: 4px 15px 7px 15px;
+    width: auto;
+    height: auto;
+	float: left;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.50);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.50);
+    border-top: 1px solid rgba(0,0,0,0.001);
+    box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.10);
+    cursor: pointer;
+}
+
+.linksLine a:hover {
+    /* Hover State */
+    box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+    -webkit-animation: glow 1s infinite ease-in-out;
+    cursor: pointer;
+}
+
+.linksLine a:active {
+    /* Active State (clicked on) */
+    padding: 6px 15px 5px 15px;
+    border-top: 1px solid rgba(0,0,0,0.55);
+    box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 2px 1px rgba(255,255,255,0.50), inset 0px 1px 4px rgba(0,0,0,0.35), inset 0px -14px 14px rgba(255,255,255,0.10);
+    -webkit-animation: none;
+    cursor: pointer !important;
+}
+
+.articles {
+    float: left;
+    width: 50%;
+    border-left-style: ridge;
+    padding: 30px 20px 0px 20px;
+}
+/* 
+.article2 {
+    padding-top: 110px;
+    margin-top: 30px;
+    float: left;
+    width: 50%;
+} */
+
+.articleH1 {
+	text-align: center;
+	font-size: 120%;
+	color: white;
+	background-color: navy;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#listID {
+    text-shadow: 10px;
+    padding-top: 20px;
+    list-style-type: upper-roman;
+}
+.theFooter {
+    /* position:absolute;
+    bottom:0;
+    left: 0; */
+    border: 2px solid burlywood;
+    background-color: brown;
+    color: aquamarine;
+    margin-top: 30px;
+    width : 100%;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+}
+
+.pic {
+    /* float:left; */
+    text-align: center;
+    color: blue;
+    line-height: 1.5;
+}
+
+.pic > img {
+    max-width: 500px;
+    width: 100%;
+    display: table-cell;
+    margin: 10px auto;
+}
+
+.para-left {
+    float: left;
+    width: 100%;
+}
